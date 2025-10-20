@@ -1,0 +1,163 @@
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: rgb(255, 255, 255);
+      color: #6d0f10;
+    }
+
+    .navbar {
+      background-color: #6d0f10;
+    }
+
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      color: #d4c26a !important;
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+    
+
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+
+    .nav-link {
+      color: #d4c26a !important;
+      font-weight: 600;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-link:hover {
+      color: #ffffff !important;
+      text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.6);
+    }
+
+    .hero {
+      padding: 80px 20px;
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero img {
+      max-width: 180px;
+      margin-bottom: 25px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    .btn-daftar {
+      background-color: #d4c26a;
+      color: #6d0f10;
+      font-weight: bold;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 5px;
+    }
+    .btn-daftar-custom {
+      background-color: #6d0f10;
+      color: #d4c26a;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-daftar-custom {
+      background-color: #d4c26a;
+      color: #6d0f10;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      font-weight: bold; /* Teks jadi tebal */
+      transition: all 0.3s ease;
+    }
+    
+    .btn-daftar-custom:hover {
+      background-color: #ffffff;
+      color: #6d0f10;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+    }
+
+    /* Custom CSS */
+@media (max-width: 768px) {
+  .navbar {
+    margin-bottom: 0; /* Atur margin bawah navbar jika diperlukan */
+  }
+  .tentang-mecnesia,
+  .profil-lokasi,
+  .aktivitas-program,
+  .catatan-penting {
+    margin-top: 10px; /* Atur jarak atas untuk section di mobile */
+  }
+}
+
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+
+    footer {
+      background-color: #6d0f10;
+      color: #d4c26a;
+      padding: 30px 0;
+    }
+
+    .social-icons a {
+      color: #d4c26a;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    /* Card Styling */
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #ddd;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .card-body {
+      padding: 1.5rem;
+    }
+
+    .card-footer {
+      background-color: #f8f9fa;
+      border-top: 1px solid #ddd;
+    }
