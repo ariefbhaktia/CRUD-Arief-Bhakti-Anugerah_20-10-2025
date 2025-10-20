@@ -1,4 +1,8 @@
 ﻿# CRUD-Arief-Bhakti-Anugerah_20-10-2025
 
-username : admin
-password : password
+## Login Admin
+
+| Parameter  | Isi        |
+| :--------- | :--------- |
+| `username` | "admin"    |
+| `password` | "password" |
