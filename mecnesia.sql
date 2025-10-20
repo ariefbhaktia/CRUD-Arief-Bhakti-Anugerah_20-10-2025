@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 20, 2025 at 12:19 PM
+-- Generation Time: Oct 20, 2025 at 01:32 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `nama`, `username`, `password`) VALUES
-(7, 'ADJZDSF', 'admin', '$2y$10$ujT/e1G8CQor0u/YvXvlVexkfrElnEy.bK7f968bmvYB/tDU0yWFC');
+(7, 'Arief', 'admin', '$2y$10$3A1GJAG6LLTJAmLlWl8HQuxL/dMVVWThzW.mtb4xlk3aqGCy.qhHK');
 
 -- --------------------------------------------------------
 
@@ -104,7 +104,7 @@ ALTER TABLE `pendaftaran`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `pendaftaran`
